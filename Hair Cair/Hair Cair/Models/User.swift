@@ -17,4 +17,8 @@ enum TypeOfUser: String {
     }
 }
 
-
+class User: Codable {
+    let username: String
+    let email: String
+    let location: String
+}
