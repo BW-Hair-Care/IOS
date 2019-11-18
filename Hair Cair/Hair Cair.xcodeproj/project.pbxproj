@@ -13,6 +13,8 @@
 		F658AE6223831693000FF8EA /* Hair_Cair.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = F658AE6023831693000FF8EA /* Hair_Cair.xcdatamodeld */; };
 		F658AE6423831694000FF8EA /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F658AE6323831694000FF8EA /* Assets.xcassets */; };
 		F658AE6723831694000FF8EA /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F658AE6523831694000FF8EA /* LaunchScreen.storyboard */; };
+		F658AE7323831B82000FF8EA /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F658AE7223831B82000FF8EA /* LoginViewController.swift */; };
+		F658AE75238321F3000FF8EA /* CreateAccountViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F658AE74238321F3000FF8EA /* CreateAccountViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +26,8 @@
 		F658AE6323831694000FF8EA /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		F658AE6623831694000FF8EA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		F658AE6823831694000FF8EA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F658AE7223831B82000FF8EA /* LoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
+		F658AE74238321F3000FF8EA /* CreateAccountViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CreateAccountViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,10 +60,14 @@
 		F658AE5623831693000FF8EA /* Hair Cair */ = {
 			isa = PBXGroup;
 			children = (
+				F658AE71238319E9000FF8EA /* Models */,
+				F658AE70238319E7000FF8EA /* VIews */,
+				F658AE6F238319E1000FF8EA /* Controllers */,
 				F658AE6E23831923000FF8EA /* Assets */,
 				F658AE5D23831693000FF8EA /* Main.storyboard */,
 				F658AE6523831694000FF8EA /* LaunchScreen.storyboard */,
 				F658AE6023831693000FF8EA /* Hair_Cair.xcdatamodeld */,
+				F658AE6823831694000FF8EA /* Info.plist */,
 			);
 			path = "Hair Cair";
 			sourceTree = "<group>";
@@ -70,9 +78,31 @@
 				F658AE5723831693000FF8EA /* AppDelegate.swift */,
 				F658AE5923831693000FF8EA /* SceneDelegate.swift */,
 				F658AE6323831694000FF8EA /* Assets.xcassets */,
-				F658AE6823831694000FF8EA /* Info.plist */,
 			);
 			path = Assets;
+			sourceTree = "<group>";
+		};
+		F658AE6F238319E1000FF8EA /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				F658AE7223831B82000FF8EA /* LoginViewController.swift */,
+				F658AE74238321F3000FF8EA /* CreateAccountViewController.swift */,
+			);
+			path = "Contro\U0010llers";
+			sourceTree = "<group>";
+		};
+		F658AE70238319E7000FF8EA /* VIews */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = VIews;
+			sourceTree = "<group>";
+		};
+		F658AE71238319E9000FF8EA /* Models */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Models;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -146,6 +176,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F658AE75238321F3000FF8EA /* CreateAccountViewController.swift in Sources */,
+				F658AE7323831B82000FF8EA /* LoginViewController.swift in Sources */,
 				F658AE6223831693000FF8EA /* Hair_Cair.xcdatamodeld in Sources */,
 				F658AE5823831693000FF8EA /* AppDelegate.swift in Sources */,
 				F658AE5A23831693000FF8EA /* SceneDelegate.swift in Sources */,
