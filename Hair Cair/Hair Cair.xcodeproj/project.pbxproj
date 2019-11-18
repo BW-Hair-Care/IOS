@@ -15,6 +15,7 @@
 		F658AE6723831694000FF8EA /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F658AE6523831694000FF8EA /* LaunchScreen.storyboard */; };
 		F658AE7323831B82000FF8EA /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F658AE7223831B82000FF8EA /* LoginViewController.swift */; };
 		F658AE75238321F3000FF8EA /* CreateAccountViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F658AE74238321F3000FF8EA /* CreateAccountViewController.swift */; };
+		F658AE77238324F4000FF8EA /* User.swift in Sources */ = {isa = PBXBuildFile; fileRef = F658AE76238324F4000FF8EA /* User.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -28,6 +29,7 @@
 		F658AE6823831694000FF8EA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		F658AE7223831B82000FF8EA /* LoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
 		F658AE74238321F3000FF8EA /* CreateAccountViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CreateAccountViewController.swift; sourceTree = "<group>"; };
+		F658AE76238324F4000FF8EA /* User.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = User.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -101,6 +103,7 @@
 		F658AE71238319E9000FF8EA /* Models */ = {
 			isa = PBXGroup;
 			children = (
+				F658AE76238324F4000FF8EA /* User.swift */,
 			);
 			path = Models;
 			sourceTree = "<group>";
@@ -178,6 +181,7 @@
 			files = (
 				F658AE75238321F3000FF8EA /* CreateAccountViewController.swift in Sources */,
 				F658AE7323831B82000FF8EA /* LoginViewController.swift in Sources */,
+				F658AE77238324F4000FF8EA /* User.swift in Sources */,
 				F658AE6223831693000FF8EA /* Hair_Cair.xcdatamodeld in Sources */,
 				F658AE5823831693000FF8EA /* AppDelegate.swift in Sources */,
 				F658AE5A23831693000FF8EA /* SceneDelegate.swift in Sources */,
