@@ -9,7 +9,6 @@
 /* Begin PBXBuildFile section */
 		F658AE5823831693000FF8EA /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F658AE5723831693000FF8EA /* AppDelegate.swift */; };
 		F658AE5A23831693000FF8EA /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F658AE5923831693000FF8EA /* SceneDelegate.swift */; };
-		F658AE5C23831693000FF8EA /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F658AE5B23831693000FF8EA /* ViewController.swift */; };
 		F658AE5F23831693000FF8EA /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F658AE5D23831693000FF8EA /* Main.storyboard */; };
 		F658AE6223831693000FF8EA /* Hair_Cair.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = F658AE6023831693000FF8EA /* Hair_Cair.xcdatamodeld */; };
 		F658AE6423831694000FF8EA /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F658AE6323831694000FF8EA /* Assets.xcassets */; };
@@ -20,7 +19,6 @@
 		F658AE5423831693000FF8EA /* Hair Cair.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Hair Cair.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		F658AE5723831693000FF8EA /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		F658AE5923831693000FF8EA /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		F658AE5B23831693000FF8EA /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		F658AE5E23831693000FF8EA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		F658AE6123831693000FF8EA /* Hair_Cair.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Hair_Cair.xcdatamodel; sourceTree = "<group>"; };
 		F658AE6323831694000FF8EA /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -58,16 +56,23 @@
 		F658AE5623831693000FF8EA /* Hair Cair */ = {
 			isa = PBXGroup;
 			children = (
-				F658AE5723831693000FF8EA /* AppDelegate.swift */,
-				F658AE5923831693000FF8EA /* SceneDelegate.swift */,
-				F658AE5B23831693000FF8EA /* ViewController.swift */,
+				F658AE6E23831923000FF8EA /* Assets */,
 				F658AE5D23831693000FF8EA /* Main.storyboard */,
-				F658AE6323831694000FF8EA /* Assets.xcassets */,
 				F658AE6523831694000FF8EA /* LaunchScreen.storyboard */,
-				F658AE6823831694000FF8EA /* Info.plist */,
 				F658AE6023831693000FF8EA /* Hair_Cair.xcdatamodeld */,
 			);
 			path = "Hair Cair";
+			sourceTree = "<group>";
+		};
+		F658AE6E23831923000FF8EA /* Assets */ = {
+			isa = PBXGroup;
+			children = (
+				F658AE5723831693000FF8EA /* AppDelegate.swift */,
+				F658AE5923831693000FF8EA /* SceneDelegate.swift */,
+				F658AE6323831694000FF8EA /* Assets.xcassets */,
+				F658AE6823831694000FF8EA /* Info.plist */,
+			);
+			path = Assets;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -142,7 +147,6 @@
 			buildActionMask = 2147483647;
 			files = (
 				F658AE6223831693000FF8EA /* Hair_Cair.xcdatamodeld in Sources */,
-				F658AE5C23831693000FF8EA /* ViewController.swift in Sources */,
 				F658AE5823831693000FF8EA /* AppDelegate.swift in Sources */,
 				F658AE5A23831693000FF8EA /* SceneDelegate.swift in Sources */,
 			);
