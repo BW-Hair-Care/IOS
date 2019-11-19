@@ -8,7 +8,7 @@
 
 import Foundation
 
-enum TypeOfUser: String {
+enum TypeOfUser: String, Codable {
     case customer = "customer"
     case stylist = "stylist"
     
@@ -21,4 +21,5 @@ class User: Codable {
     let username: String
     let email: String
     let location: String
+    let accountType: TypeOfUser
 }
