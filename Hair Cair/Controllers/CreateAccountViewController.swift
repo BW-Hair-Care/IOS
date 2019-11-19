@@ -10,6 +10,12 @@ import UIKit
 
 class CreateAccountViewController: UIViewController {
     
+    //Properties & Outlets
+
+    @IBAction func backToLoginTapped(_ sender: Any) {
+        self.dismiss(animated: true, completion: nil)
+    }
+    
     override func viewDidLoad() {
         super.viewDidLoad()
 
@@ -29,6 +35,7 @@ class CreateAccountViewController: UIViewController {
     
 }
 
+//Functions
 extension CreateAccountViewController {
     
 }
