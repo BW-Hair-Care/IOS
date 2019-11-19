@@ -7,6 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		F63DD0342383984900C8AFCC /* Users.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F63DD0332383984900C8AFCC /* Users.storyboard */; };
+		F63DD0382383998300C8AFCC /* StylistProfileViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F63DD0372383998300C8AFCC /* StylistProfileViewController.swift */; };
+		F63DD03A2383999F00C8AFCC /* CustomerProfileViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F63DD0392383999F00C8AFCC /* CustomerProfileViewController.swift */; };
 		F658AE5823831693000FF8EA /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F658AE5723831693000FF8EA /* AppDelegate.swift */; };
 		F658AE5A23831693000FF8EA /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F658AE5923831693000FF8EA /* SceneDelegate.swift */; };
 		F658AE5F23831693000FF8EA /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F658AE5D23831693000FF8EA /* Main.storyboard */; };
@@ -19,6 +22,9 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		F63DD0332383984900C8AFCC /* Users.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Users.storyboard; sourceTree = "<group>"; };
+		F63DD0372383998300C8AFCC /* StylistProfileViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StylistProfileViewController.swift; sourceTree = "<group>"; };
+		F63DD0392383999F00C8AFCC /* CustomerProfileViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomerProfileViewController.swift; sourceTree = "<group>"; };
 		F658AE5423831693000FF8EA /* Hair Cair.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Hair Cair.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		F658AE5723831693000FF8EA /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		F658AE5923831693000FF8EA /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -47,9 +53,35 @@
 			isa = PBXGroup;
 			children = (
 				F658AE5D23831693000FF8EA /* Main.storyboard */,
+				F63DD0332383984900C8AFCC /* Users.storyboard */,
 				F658AE6523831694000FF8EA /* LaunchScreen.storyboard */,
 			);
 			path = Storyboards;
+			sourceTree = "<group>";
+		};
+		F63DD0352383995A00C8AFCC /* Customer */ = {
+			isa = PBXGroup;
+			children = (
+				F63DD0392383999F00C8AFCC /* CustomerProfileViewController.swift */,
+			);
+			path = Customer;
+			sourceTree = "<group>";
+		};
+		F63DD0362383996B00C8AFCC /* Stylists */ = {
+			isa = PBXGroup;
+			children = (
+				F63DD0372383998300C8AFCC /* StylistProfileViewController.swift */,
+			);
+			path = Stylists;
+			sourceTree = "<group>";
+		};
+		F63DD03B238399CE00C8AFCC /* Login_SignUp */ = {
+			isa = PBXGroup;
+			children = (
+				F658AE7223831B82000FF8EA /* LoginViewController.swift */,
+				F658AE74238321F3000FF8EA /* CreateAccountViewController.swift */,
+			);
+			path = Login_SignUp;
 			sourceTree = "<group>";
 		};
 		F658AE4B23831693000FF8EA = {
@@ -95,8 +127,9 @@
 		F658AE6F238319E1000FF8EA /* Controllers */ = {
 			isa = PBXGroup;
 			children = (
-				F658AE7223831B82000FF8EA /* LoginViewController.swift */,
-				F658AE74238321F3000FF8EA /* CreateAccountViewController.swift */,
+				F63DD0362383996B00C8AFCC /* Stylists */,
+				F63DD0352383995A00C8AFCC /* Customer */,
+				F63DD03B238399CE00C8AFCC /* Login_SignUp */,
 			);
 			path = "Contro\U0010llers";
 			sourceTree = "<group>";
@@ -175,6 +208,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				F658AE6723831694000FF8EA /* LaunchScreen.storyboard in Resources */,
+				F63DD0342383984900C8AFCC /* Users.storyboard in Resources */,
 				F658AE6423831694000FF8EA /* Assets.xcassets in Resources */,
 				F658AE5F23831693000FF8EA /* Main.storyboard in Resources */,
 			);
@@ -187,12 +221,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F63DD03A2383999F00C8AFCC /* CustomerProfileViewController.swift in Sources */,
 				F658AE75238321F3000FF8EA /* CreateAccountViewController.swift in Sources */,
 				F658AE7323831B82000FF8EA /* LoginViewController.swift in Sources */,
 				F658AE77238324F4000FF8EA /* User.swift in Sources */,
 				F658AE6223831693000FF8EA /* Hair_Cair.xcdatamodeld in Sources */,
 				F658AE5823831693000FF8EA /* AppDelegate.swift in Sources */,
 				F658AE5A23831693000FF8EA /* SceneDelegate.swift in Sources */,
+				F63DD0382383998300C8AFCC /* StylistProfileViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
