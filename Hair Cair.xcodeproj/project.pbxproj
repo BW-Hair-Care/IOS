@@ -11,6 +11,8 @@
 		F63DD0382383998300C8AFCC /* StylistProfileViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F63DD0372383998300C8AFCC /* StylistProfileViewController.swift */; };
 		F63DD03A2383999F00C8AFCC /* CustomerProfileViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F63DD0392383999F00C8AFCC /* CustomerProfileViewController.swift */; };
 		F63DD03E2383A5FD00C8AFCC /* CurrentUser.swift in Sources */ = {isa = PBXBuildFile; fileRef = F63DD03D2383A5FD00C8AFCC /* CurrentUser.swift */; };
+		F63DD0402383ABBF00C8AFCC /* Customer.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F63DD03F2383ABBF00C8AFCC /* Customer.storyboard */; };
+		F63DD0422383AC5D00C8AFCC /* Stylist.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F63DD0412383AC5D00C8AFCC /* Stylist.storyboard */; };
 		F658AE5823831693000FF8EA /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F658AE5723831693000FF8EA /* AppDelegate.swift */; };
 		F658AE5A23831693000FF8EA /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F658AE5923831693000FF8EA /* SceneDelegate.swift */; };
 		F658AE5F23831693000FF8EA /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F658AE5D23831693000FF8EA /* Main.storyboard */; };
@@ -27,6 +29,8 @@
 		F63DD0372383998300C8AFCC /* StylistProfileViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StylistProfileViewController.swift; sourceTree = "<group>"; };
 		F63DD0392383999F00C8AFCC /* CustomerProfileViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomerProfileViewController.swift; sourceTree = "<group>"; };
 		F63DD03D2383A5FD00C8AFCC /* CurrentUser.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CurrentUser.swift; sourceTree = "<group>"; };
+		F63DD03F2383ABBF00C8AFCC /* Customer.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Customer.storyboard; sourceTree = "<group>"; };
+		F63DD0412383AC5D00C8AFCC /* Stylist.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Stylist.storyboard; sourceTree = "<group>"; };
 		F658AE5423831693000FF8EA /* Hair Cair.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Hair Cair.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		F658AE5723831693000FF8EA /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		F658AE5923831693000FF8EA /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -56,6 +60,8 @@
 			children = (
 				F658AE5D23831693000FF8EA /* Main.storyboard */,
 				F63DD0332383984900C8AFCC /* Users.storyboard */,
+				F63DD03F2383ABBF00C8AFCC /* Customer.storyboard */,
+				F63DD0412383AC5D00C8AFCC /* Stylist.storyboard */,
 				F658AE6523831694000FF8EA /* LaunchScreen.storyboard */,
 			);
 			path = Storyboards;
@@ -218,6 +224,8 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F63DD0402383ABBF00C8AFCC /* Customer.storyboard in Resources */,
+				F63DD0422383AC5D00C8AFCC /* Stylist.storyboard in Resources */,
 				F658AE6723831694000FF8EA /* LaunchScreen.storyboard in Resources */,
 				F63DD0342383984900C8AFCC /* Users.storyboard in Resources */,
 				F658AE6423831694000FF8EA /* Assets.xcassets in Resources */,

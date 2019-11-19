@@ -15,8 +15,8 @@
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Username" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="sG9-sm-g3S">
-                                <rect key="frame" x="144" y="133" width="133" height="36"/>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Welcome" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="sG9-sm-g3S">
+                                <rect key="frame" x="147" y="430" width="121" height="36"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="30"/>
                                 <nil key="textColor"/>
@@ -26,10 +26,34 @@
                         <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
                         <viewLayoutGuide key="safeArea" id="fgH-JW-NGy"/>
                     </view>
+                    <connections>
+                        <segue destination="ddL-hk-1yM" kind="show" identifier="CustomerSegue" id="p9j-IN-GWg"/>
+                        <segue destination="Ggk-3Z-3Qb" kind="show" identifier="StylistSegue" id="P6I-Pa-rXN"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="K7q-EI-WYp" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="58" y="151"/>
+            <point key="canvasLocation" x="-449" y="212"/>
+        </scene>
+        <!--Stylist-->
+        <scene sceneID="11Q-ju-9mw">
+            <objects>
+                <viewControllerPlaceholder storyboardName="Stylist" id="Ggk-3Z-3Qb" sceneMemberID="viewController">
+                    <navigationItem key="navigationItem" id="aWW-8G-vlv"/>
+                </viewControllerPlaceholder>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="DOG-bz-hfb" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-95" y="690"/>
+        </scene>
+        <!--Customer-->
+        <scene sceneID="O8o-1a-ROW">
+            <objects>
+                <viewControllerPlaceholder storyboardName="Customer" id="ddL-hk-1yM" sceneMemberID="viewController">
+                    <navigationItem key="navigationItem" id="X1o-lj-Qfi"/>
+                </viewControllerPlaceholder>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="WAk-7G-lKB" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-771" y="690"/>
         </scene>
     </scenes>
 </document>
