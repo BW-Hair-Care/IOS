@@ -21,7 +21,7 @@ enum TypeOfUser: String, Codable {
 class User: Codable {
     let username: String
     let email: String
-    let location: String
+    let address: String
     let accountType: TypeOfUser
     //For Customers
     var savedStylists: [User]?
@@ -30,4 +30,11 @@ class User: Codable {
     var biography: String?
     //var profilePhoto: UIImage?
     //var photoGallery: [UIImage]?
+    
+    init(username: String, email: String, address: String, accountType: TypeOfUser) {
+        self.username = username
+        self.email = email
+        self.address = address
+        self.accountType = accountType
+    }
 }
