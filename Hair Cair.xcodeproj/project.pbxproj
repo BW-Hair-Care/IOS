@@ -22,6 +22,9 @@
 		F658AE7323831B82000FF8EA /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F658AE7223831B82000FF8EA /* LoginViewController.swift */; };
 		F658AE75238321F3000FF8EA /* CreateAccountViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F658AE74238321F3000FF8EA /* CreateAccountViewController.swift */; };
 		F658AE77238324F4000FF8EA /* User.swift in Sources */ = {isa = PBXBuildFile; fileRef = F658AE76238324F4000FF8EA /* User.swift */; };
+		F67F80E12384922B00278CE6 /* SearchStylistTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F67F80E02384922B00278CE6 /* SearchStylistTableViewController.swift */; };
+		F67F80E32384927700278CE6 /* SavedStylistTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F67F80E22384927700278CE6 /* SavedStylistTableViewController.swift */; };
+		F67F80E5238492BF00278CE6 /* DetailedStylistViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F67F80E4238492BF00278CE6 /* DetailedStylistViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -42,6 +45,9 @@
 		F658AE7223831B82000FF8EA /* LoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
 		F658AE74238321F3000FF8EA /* CreateAccountViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CreateAccountViewController.swift; sourceTree = "<group>"; };
 		F658AE76238324F4000FF8EA /* User.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = User.swift; sourceTree = "<group>"; };
+		F67F80E02384922B00278CE6 /* SearchStylistTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchStylistTableViewController.swift; sourceTree = "<group>"; };
+		F67F80E22384927700278CE6 /* SavedStylistTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SavedStylistTableViewController.swift; sourceTree = "<group>"; };
+		F67F80E4238492BF00278CE6 /* DetailedStylistViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailedStylistViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -71,6 +77,9 @@
 			isa = PBXGroup;
 			children = (
 				F63DD0392383999F00C8AFCC /* CustomerProfileViewController.swift */,
+				F67F80E02384922B00278CE6 /* SearchStylistTableViewController.swift */,
+				F67F80E22384927700278CE6 /* SavedStylistTableViewController.swift */,
+				F67F80E4238492BF00278CE6 /* DetailedStylistViewController.swift */,
 			);
 			path = Customer;
 			sourceTree = "<group>";
@@ -244,10 +253,13 @@
 				F658AE75238321F3000FF8EA /* CreateAccountViewController.swift in Sources */,
 				F658AE7323831B82000FF8EA /* LoginViewController.swift in Sources */,
 				F658AE77238324F4000FF8EA /* User.swift in Sources */,
+				F67F80E12384922B00278CE6 /* SearchStylistTableViewController.swift in Sources */,
+				F67F80E5238492BF00278CE6 /* DetailedStylistViewController.swift in Sources */,
 				F658AE6223831693000FF8EA /* Hair_Cair.xcdatamodeld in Sources */,
 				F658AE5823831693000FF8EA /* AppDelegate.swift in Sources */,
 				F658AE5A23831693000FF8EA /* SceneDelegate.swift in Sources */,
 				F63DD03E2383A5FD00C8AFCC /* CurrentUser.swift in Sources */,
+				F67F80E32384927700278CE6 /* SavedStylistTableViewController.swift in Sources */,
 				F63DD0382383998300C8AFCC /* StylistProfileViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
