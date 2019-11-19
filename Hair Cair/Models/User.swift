@@ -7,6 +7,7 @@
 //
 
 import Foundation
+import UIKit
 
 enum TypeOfUser: String, Codable {
     case customer = "customer"
@@ -22,4 +23,11 @@ class User: Codable {
     let email: String
     let location: String
     let accountType: TypeOfUser
+    //For Customers
+    var savedStylists: [User]?
+    //For Stylists
+    var accolades: String?
+    var biography: String?
+    //var profilePhoto: UIImage?
+    //var photoGallery: [UIImage]?
 }
