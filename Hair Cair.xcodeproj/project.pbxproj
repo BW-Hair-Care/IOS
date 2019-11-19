@@ -10,6 +10,7 @@
 		F63DD0342383984900C8AFCC /* Users.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F63DD0332383984900C8AFCC /* Users.storyboard */; };
 		F63DD0382383998300C8AFCC /* StylistProfileViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F63DD0372383998300C8AFCC /* StylistProfileViewController.swift */; };
 		F63DD03A2383999F00C8AFCC /* CustomerProfileViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F63DD0392383999F00C8AFCC /* CustomerProfileViewController.swift */; };
+		F63DD03E2383A5FD00C8AFCC /* CurrentUser.swift in Sources */ = {isa = PBXBuildFile; fileRef = F63DD03D2383A5FD00C8AFCC /* CurrentUser.swift */; };
 		F658AE5823831693000FF8EA /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F658AE5723831693000FF8EA /* AppDelegate.swift */; };
 		F658AE5A23831693000FF8EA /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F658AE5923831693000FF8EA /* SceneDelegate.swift */; };
 		F658AE5F23831693000FF8EA /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F658AE5D23831693000FF8EA /* Main.storyboard */; };
@@ -25,6 +26,7 @@
 		F63DD0332383984900C8AFCC /* Users.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Users.storyboard; sourceTree = "<group>"; };
 		F63DD0372383998300C8AFCC /* StylistProfileViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StylistProfileViewController.swift; sourceTree = "<group>"; };
 		F63DD0392383999F00C8AFCC /* CustomerProfileViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomerProfileViewController.swift; sourceTree = "<group>"; };
+		F63DD03D2383A5FD00C8AFCC /* CurrentUser.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CurrentUser.swift; sourceTree = "<group>"; };
 		F658AE5423831693000FF8EA /* Hair Cair.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Hair Cair.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		F658AE5723831693000FF8EA /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		F658AE5923831693000FF8EA /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -84,6 +86,14 @@
 			path = Login_SignUp;
 			sourceTree = "<group>";
 		};
+		F63DD03C2383A5E100C8AFCC /* Helpers */ = {
+			isa = PBXGroup;
+			children = (
+				F63DD03D2383A5FD00C8AFCC /* CurrentUser.swift */,
+			);
+			path = Helpers;
+			sourceTree = "<group>";
+		};
 		F658AE4B23831693000FF8EA = {
 			isa = PBXGroup;
 			children = (
@@ -103,6 +113,7 @@
 		F658AE5623831693000FF8EA /* Hair Cair */ = {
 			isa = PBXGroup;
 			children = (
+				F63DD03C2383A5E100C8AFCC /* Helpers */,
 				F658AE71238319E9000FF8EA /* Models */,
 				F658AE70238319E7000FF8EA /* VIews */,
 				F658AE6F238319E1000FF8EA /* Controllers */,
@@ -228,6 +239,7 @@
 				F658AE6223831693000FF8EA /* Hair_Cair.xcdatamodeld in Sources */,
 				F658AE5823831693000FF8EA /* AppDelegate.swift in Sources */,
 				F658AE5A23831693000FF8EA /* SceneDelegate.swift in Sources */,
+				F63DD03E2383A5FD00C8AFCC /* CurrentUser.swift in Sources */,
 				F63DD0382383998300C8AFCC /* StylistProfileViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
