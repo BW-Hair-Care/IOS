@@ -43,6 +43,15 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		F63DD0322383973200C8AFCC /* Storyboards */ = {
+			isa = PBXGroup;
+			children = (
+				F658AE5D23831693000FF8EA /* Main.storyboard */,
+				F658AE6523831694000FF8EA /* LaunchScreen.storyboard */,
+			);
+			path = Storyboards;
+			sourceTree = "<group>";
+		};
 		F658AE4B23831693000FF8EA = {
 			isa = PBXGroup;
 			children = (
@@ -66,8 +75,7 @@
 				F658AE70238319E7000FF8EA /* VIews */,
 				F658AE6F238319E1000FF8EA /* Controllers */,
 				F658AE6E23831923000FF8EA /* Assets */,
-				F658AE5D23831693000FF8EA /* Main.storyboard */,
-				F658AE6523831694000FF8EA /* LaunchScreen.storyboard */,
+				F63DD0322383973200C8AFCC /* Storyboards */,
 				F658AE6023831693000FF8EA /* Hair_Cair.xcdatamodeld */,
 				F658AE6823831694000FF8EA /* Info.plist */,
 			);
