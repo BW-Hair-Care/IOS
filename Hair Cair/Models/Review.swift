@@ -13,4 +13,5 @@ struct Review: Codable {
     let stylist: User
     var review: String
     var rating: Int
+    let dateOfReview: Date
 }
