@@ -25,6 +25,8 @@
 		F67F80E12384922B00278CE6 /* SearchStylistTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F67F80E02384922B00278CE6 /* SearchStylistTableViewController.swift */; };
 		F67F80E32384927700278CE6 /* SavedStylistTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F67F80E22384927700278CE6 /* SavedStylistTableViewController.swift */; };
 		F67F80E5238492BF00278CE6 /* DetailedStylistViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F67F80E4238492BF00278CE6 /* DetailedStylistViewController.swift */; };
+		F67F80E72384BCB000278CE6 /* Review.swift in Sources */ = {isa = PBXBuildFile; fileRef = F67F80E62384BCB000278CE6 /* Review.swift */; };
+		F67F80E92384C15A00278CE6 /* ReviewStylistViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F67F80E82384C15A00278CE6 /* ReviewStylistViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -48,6 +50,8 @@
 		F67F80E02384922B00278CE6 /* SearchStylistTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchStylistTableViewController.swift; sourceTree = "<group>"; };
 		F67F80E22384927700278CE6 /* SavedStylistTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SavedStylistTableViewController.swift; sourceTree = "<group>"; };
 		F67F80E4238492BF00278CE6 /* DetailedStylistViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailedStylistViewController.swift; sourceTree = "<group>"; };
+		F67F80E62384BCB000278CE6 /* Review.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Review.swift; sourceTree = "<group>"; };
+		F67F80E82384C15A00278CE6 /* ReviewStylistViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReviewStylistViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -66,8 +70,8 @@
 			children = (
 				F658AE5D23831693000FF8EA /* Main.storyboard */,
 				F63DD0332383984900C8AFCC /* Users.storyboard */,
-				F63DD03F2383ABBF00C8AFCC /* Customer.storyboard */,
 				F63DD0412383AC5D00C8AFCC /* Stylist.storyboard */,
+				F63DD03F2383ABBF00C8AFCC /* Customer.storyboard */,
 				F658AE6523831694000FF8EA /* LaunchScreen.storyboard */,
 			);
 			path = Storyboards;
@@ -80,6 +84,7 @@
 				F67F80E02384922B00278CE6 /* SearchStylistTableViewController.swift */,
 				F67F80E22384927700278CE6 /* SavedStylistTableViewController.swift */,
 				F67F80E4238492BF00278CE6 /* DetailedStylistViewController.swift */,
+				F67F80E82384C15A00278CE6 /* ReviewStylistViewController.swift */,
 			);
 			path = Customer;
 			sourceTree = "<group>";
@@ -171,6 +176,7 @@
 			isa = PBXGroup;
 			children = (
 				F658AE76238324F4000FF8EA /* User.swift */,
+				F67F80E62384BCB000278CE6 /* Review.swift */,
 			);
 			path = Models;
 			sourceTree = "<group>";
@@ -257,6 +263,8 @@
 				F67F80E5238492BF00278CE6 /* DetailedStylistViewController.swift in Sources */,
 				F658AE6223831693000FF8EA /* Hair_Cair.xcdatamodeld in Sources */,
 				F658AE5823831693000FF8EA /* AppDelegate.swift in Sources */,
+				F67F80E72384BCB000278CE6 /* Review.swift in Sources */,
+				F67F80E92384C15A00278CE6 /* ReviewStylistViewController.swift in Sources */,
 				F658AE5A23831693000FF8EA /* SceneDelegate.swift in Sources */,
 				F63DD03E2383A5FD00C8AFCC /* CurrentUser.swift in Sources */,
 				F67F80E32384927700278CE6 /* SavedStylistTableViewController.swift in Sources */,
