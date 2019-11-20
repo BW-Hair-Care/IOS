@@ -28,6 +28,8 @@ class User: Codable {
     //For Stylists
     var accolades: String?
     var biography: String?
+    var rating: Int?
+    var reviews: [Review]?
     //var profilePhoto: UIImage?
     //var photoGallery: [UIImage]?
     
