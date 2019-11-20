@@ -7,3 +7,10 @@
 //
 
 import Foundation
+
+struct Review: Codable {
+    let customer: User
+    let stylist: User
+    var review: String
+    var rating: Int
+}
