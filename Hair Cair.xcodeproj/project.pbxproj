@@ -13,6 +13,8 @@
 		F63DD03E2383A5FD00C8AFCC /* CurrentUser.swift in Sources */ = {isa = PBXBuildFile; fileRef = F63DD03D2383A5FD00C8AFCC /* CurrentUser.swift */; };
 		F63DD0402383ABBF00C8AFCC /* Customer.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F63DD03F2383ABBF00C8AFCC /* Customer.storyboard */; };
 		F63DD0422383AC5D00C8AFCC /* Stylist.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F63DD0412383AC5D00C8AFCC /* Stylist.storyboard */; };
+		F649889B238539710057A65A /* WelcomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F649889A238539710057A65A /* WelcomeViewController.swift */; };
+		F649889D2385526B0057A65A /* SearchStylistStTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F649889C2385526B0057A65A /* SearchStylistStTableViewController.swift */; };
 		F658AE5823831693000FF8EA /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F658AE5723831693000FF8EA /* AppDelegate.swift */; };
 		F658AE5A23831693000FF8EA /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F658AE5923831693000FF8EA /* SceneDelegate.swift */; };
 		F658AE5F23831693000FF8EA /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F658AE5D23831693000FF8EA /* Main.storyboard */; };
@@ -27,6 +29,12 @@
 		F67F80E5238492BF00278CE6 /* DetailedStylistViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F67F80E4238492BF00278CE6 /* DetailedStylistViewController.swift */; };
 		F67F80E72384BCB000278CE6 /* Review.swift in Sources */ = {isa = PBXBuildFile; fileRef = F67F80E62384BCB000278CE6 /* Review.swift */; };
 		F67F80E92384C15A00278CE6 /* ReviewStylistViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F67F80E82384C15A00278CE6 /* ReviewStylistViewController.swift */; };
+		F67F80EB2384C62800278CE6 /* DetailedReviewViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F67F80EA2384C62800278CE6 /* DetailedReviewViewController.swift */; };
+		F67F80ED2384C66300278CE6 /* StylistReviewsTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F67F80EC2384C66300278CE6 /* StylistReviewsTableViewController.swift */; };
+		F67F80EF2384CA5100278CE6 /* StylistReviewsCuTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F67F80EE2384CA5100278CE6 /* StylistReviewsCuTableViewController.swift */; };
+		F67F80F12384CB1700278CE6 /* DetailedReviewCuViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F67F80F02384CB1600278CE6 /* DetailedReviewCuViewController.swift */; };
+		F6CD68442385DBEB00D5FC44 /* DeletePhotoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F6CD68432385DBEB00D5FC44 /* DeletePhotoViewController.swift */; };
+		F6CD68482385DE5600D5FC44 /* DetailedReviewViewController2.swift in Sources */ = {isa = PBXBuildFile; fileRef = F6CD68472385DE5600D5FC44 /* DetailedReviewViewController2.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -36,6 +44,8 @@
 		F63DD03D2383A5FD00C8AFCC /* CurrentUser.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CurrentUser.swift; sourceTree = "<group>"; };
 		F63DD03F2383ABBF00C8AFCC /* Customer.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Customer.storyboard; sourceTree = "<group>"; };
 		F63DD0412383AC5D00C8AFCC /* Stylist.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Stylist.storyboard; sourceTree = "<group>"; };
+		F649889A238539710057A65A /* WelcomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WelcomeViewController.swift; sourceTree = "<group>"; };
+		F649889C2385526B0057A65A /* SearchStylistStTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchStylistStTableViewController.swift; sourceTree = "<group>"; };
 		F658AE5423831693000FF8EA /* Hair Cair.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Hair Cair.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		F658AE5723831693000FF8EA /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		F658AE5923831693000FF8EA /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -52,6 +62,12 @@
 		F67F80E4238492BF00278CE6 /* DetailedStylistViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailedStylistViewController.swift; sourceTree = "<group>"; };
 		F67F80E62384BCB000278CE6 /* Review.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Review.swift; sourceTree = "<group>"; };
 		F67F80E82384C15A00278CE6 /* ReviewStylistViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReviewStylistViewController.swift; sourceTree = "<group>"; };
+		F67F80EA2384C62800278CE6 /* DetailedReviewViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailedReviewViewController.swift; sourceTree = "<group>"; };
+		F67F80EC2384C66300278CE6 /* StylistReviewsTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StylistReviewsTableViewController.swift; sourceTree = "<group>"; };
+		F67F80EE2384CA5100278CE6 /* StylistReviewsCuTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StylistReviewsCuTableViewController.swift; sourceTree = "<group>"; };
+		F67F80F02384CB1600278CE6 /* DetailedReviewCuViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailedReviewCuViewController.swift; sourceTree = "<group>"; };
+		F6CD68432385DBEB00D5FC44 /* DeletePhotoViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DeletePhotoViewController.swift; sourceTree = "<group>"; };
+		F6CD68472385DE5600D5FC44 /* DetailedReviewViewController2.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailedReviewViewController2.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -70,8 +86,8 @@
 			children = (
 				F658AE5D23831693000FF8EA /* Main.storyboard */,
 				F63DD0332383984900C8AFCC /* Users.storyboard */,
-				F63DD0412383AC5D00C8AFCC /* Stylist.storyboard */,
 				F63DD03F2383ABBF00C8AFCC /* Customer.storyboard */,
+				F63DD0412383AC5D00C8AFCC /* Stylist.storyboard */,
 				F658AE6523831694000FF8EA /* LaunchScreen.storyboard */,
 			);
 			path = Storyboards;
@@ -81,10 +97,12 @@
 			isa = PBXGroup;
 			children = (
 				F63DD0392383999F00C8AFCC /* CustomerProfileViewController.swift */,
-				F67F80E02384922B00278CE6 /* SearchStylistTableViewController.swift */,
-				F67F80E22384927700278CE6 /* SavedStylistTableViewController.swift */,
 				F67F80E4238492BF00278CE6 /* DetailedStylistViewController.swift */,
 				F67F80E82384C15A00278CE6 /* ReviewStylistViewController.swift */,
+				F67F80F02384CB1600278CE6 /* DetailedReviewCuViewController.swift */,
+				F67F80E02384922B00278CE6 /* SearchStylistTableViewController.swift */,
+				F67F80E22384927700278CE6 /* SavedStylistTableViewController.swift */,
+				F67F80EE2384CA5100278CE6 /* StylistReviewsCuTableViewController.swift */,
 			);
 			path = Customer;
 			sourceTree = "<group>";
@@ -93,6 +111,11 @@
 			isa = PBXGroup;
 			children = (
 				F63DD0372383998300C8AFCC /* StylistProfileViewController.swift */,
+				F649889C2385526B0057A65A /* SearchStylistStTableViewController.swift */,
+				F67F80EA2384C62800278CE6 /* DetailedReviewViewController.swift */,
+				F67F80EC2384C66300278CE6 /* StylistReviewsTableViewController.swift */,
+				F6CD68432385DBEB00D5FC44 /* DeletePhotoViewController.swift */,
+				F6CD68472385DE5600D5FC44 /* DetailedReviewViewController2.swift */,
 			);
 			path = Stylists;
 			sourceTree = "<group>";
@@ -158,9 +181,10 @@
 		F658AE6F238319E1000FF8EA /* Controllers */ = {
 			isa = PBXGroup;
 			children = (
-				F63DD0362383996B00C8AFCC /* Stylists */,
-				F63DD0352383995A00C8AFCC /* Customer */,
 				F63DD03B238399CE00C8AFCC /* Login_SignUp */,
+				F649889A238539710057A65A /* WelcomeViewController.swift */,
+				F63DD0352383995A00C8AFCC /* Customer */,
+				F63DD0362383996B00C8AFCC /* Stylists */,
 			);
 			path = "Contro\U0010llers";
 			sourceTree = "<group>";
@@ -262,13 +286,21 @@
 				F67F80E12384922B00278CE6 /* SearchStylistTableViewController.swift in Sources */,
 				F67F80E5238492BF00278CE6 /* DetailedStylistViewController.swift in Sources */,
 				F658AE6223831693000FF8EA /* Hair_Cair.xcdatamodeld in Sources */,
+				F67F80EB2384C62800278CE6 /* DetailedReviewViewController.swift in Sources */,
 				F658AE5823831693000FF8EA /* AppDelegate.swift in Sources */,
 				F67F80E72384BCB000278CE6 /* Review.swift in Sources */,
+				F67F80ED2384C66300278CE6 /* StylistReviewsTableViewController.swift in Sources */,
 				F67F80E92384C15A00278CE6 /* ReviewStylistViewController.swift in Sources */,
 				F658AE5A23831693000FF8EA /* SceneDelegate.swift in Sources */,
+				F67F80EF2384CA5100278CE6 /* StylistReviewsCuTableViewController.swift in Sources */,
+				F6CD68482385DE5600D5FC44 /* DetailedReviewViewController2.swift in Sources */,
+				F649889D2385526B0057A65A /* SearchStylistStTableViewController.swift in Sources */,
 				F63DD03E2383A5FD00C8AFCC /* CurrentUser.swift in Sources */,
 				F67F80E32384927700278CE6 /* SavedStylistTableViewController.swift in Sources */,
+				F67F80F12384CB1700278CE6 /* DetailedReviewCuViewController.swift in Sources */,
+				F6CD68442385DBEB00D5FC44 /* DeletePhotoViewController.swift in Sources */,
 				F63DD0382383998300C8AFCC /* StylistProfileViewController.swift in Sources */,
+				F649889B238539710057A65A /* WelcomeViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

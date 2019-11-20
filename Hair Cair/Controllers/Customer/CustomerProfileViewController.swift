@@ -9,6 +9,12 @@
 import UIKit
 
 class CustomerProfileViewController: UIViewController {
+    //Properties
+    @IBOutlet weak var accountTypeLabel: UILabel!
+    @IBOutlet weak var usernameLabel: UILabel!
+    @IBOutlet weak var emailLabel: UILabel!
+    @IBOutlet weak var addressLabel: UILabel!
+    
 
     override func viewDidLoad() {
         super.viewDidLoad()

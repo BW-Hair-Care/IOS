@@ -9,7 +9,13 @@
 import UIKit
 
 class ReviewStylistViewController: UIViewController {
-
+    //Properties
+    @IBOutlet weak var nameLabel: UILabel!
+    @IBOutlet weak var profilePic: UIImageView!
+    @IBOutlet weak var reviewTextField: UITextView!
+    @IBOutlet weak var ratingPicker: UIPickerView!
+    @IBOutlet weak var saveButtonTapped: UIButton!
+    
     override func viewDidLoad() {
         super.viewDidLoad()
 

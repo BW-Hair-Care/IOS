@@ -1,25 +1,19 @@
 //
-//  StylistProfileViewController.swift
+//  DeletePhotoViewController.swift
 //  Hair Cair
 //
-//  Created by Nathan Hedgeman on 11/18/19.
+//  Created by Nathan Hedgeman on 11/20/19.
 //  Copyright © 2019 Nathan Hedgeman. All rights reserved.
 //
 
 import UIKit
 
-class StylistProfileViewController: UIViewController {
+class DeletePhotoViewController: UIViewController {
     //Properties
-    @IBOutlet weak var clearButtonTapped: UIButton!
-    @IBOutlet weak var savedButtonTapped: UIButton!
-    @IBOutlet weak var profilePic: UIImageView!
-    @IBOutlet weak var nameLabel: UILabel!
-    @IBOutlet weak var ratingLabel: UILabel!
-    @IBOutlet weak var addressLabel: UILabel!
-    @IBOutlet weak var accoladesTextView: UITextView!
-    @IBOutlet weak var bioTextView: UITextView!
-    @IBOutlet weak var addPhotoButtonTapped: UIButton!
+    @IBOutlet weak var photoImage: UIImageView!
     
+    @IBAction func deleteButtonTapped(_ sender: Any) {
+    }
     
     override func viewDidLoad() {
         super.viewDidLoad()

@@ -1,25 +1,18 @@
 //
-//  LoginViewController.swift
+//  WelcomeViewController.swift
 //  Hair Cair
 //
-//  Created by Nathan Hedgeman on 11/18/19.
+//  Created by Nathan Hedgeman on 11/20/19.
 //  Copyright © 2019 Nathan Hedgeman. All rights reserved.
 //
 
 import UIKit
 
-class LoginViewController: UIViewController {
-    //Properties
-    @IBOutlet weak var userNameTextField: UITextField!
-    @IBOutlet weak var passwordTextField: UITextField!
-    @IBAction func signInButtonTapped(_ sender: Any) {
-    }
-    @IBAction func createAccountButtonTapped(_ sender: Any) {
-    }
-    
-    
+class WelcomeViewController: UIViewController {
+
     override func viewDidLoad() {
         super.viewDidLoad()
+
         // Do any additional setup after loading the view.
     }
     
@@ -34,8 +27,4 @@ class LoginViewController: UIViewController {
     }
     */
 
-}
-
-extension LoginViewController {
-    
 }

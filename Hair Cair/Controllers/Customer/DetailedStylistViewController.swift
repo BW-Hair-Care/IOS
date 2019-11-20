@@ -9,7 +9,18 @@
 import UIKit
 
 class DetailedStylistViewController: UIViewController {
-
+    //Properties
+    @IBOutlet weak var profilePic: UIImageView!
+    @IBOutlet weak var backButtonTapped: UIButton!
+    @IBOutlet weak var saveButtonTapped: UIButton!
+    @IBOutlet weak var nameLabel: UILabel!
+    @IBOutlet weak var addressLabel: UILabel!
+    @IBOutlet weak var accoladesTextView: UITextView!
+    @IBOutlet weak var bioTextView: UITextView!
+    @IBOutlet weak var seeReviewsButtonTapped: UIButton!
+    @IBOutlet weak var writeReviewsButtonTapped: UIButton!
+    
+    
     override func viewDidLoad() {
         super.viewDidLoad()
 

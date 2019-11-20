@@ -11,10 +11,15 @@ import UIKit
 class CreateAccountViewController: UIViewController {
     
     //Properties & Outlets
-
-    @IBAction func backToLoginTapped(_ sender: Any) {
-        self.dismiss(animated: true, completion: nil)
+    @IBOutlet weak var usernameTextField: UITextField!
+    @IBOutlet weak var emailTextField: UITextField!
+    @IBOutlet weak var addressTextField: UITextField!
+    @IBOutlet weak var passwordTextField: UITextField!
+    @IBOutlet weak var passwordTextField2: UITextField!
+    @IBOutlet weak var accountTypeControl: UISegmentedControl!
+    @IBAction func createAccountButtonTapped(_ sender: Any) {
     }
+    
     
     override func viewDidLoad() {
         super.viewDidLoad()

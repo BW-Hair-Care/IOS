@@ -41,6 +41,9 @@
                                 <state key="normal" title="Sign In">
                                     <color key="titleColor" red="0.97331575960000005" green="0.97169534209999997" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 </state>
+                                <connections>
+                                    <action selector="signInButtonTapped:" destination="BYZ-38-t0r" eventType="touchUpInside" id="bkG-BG-kot"/>
+                                </connections>
                             </button>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Or" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="wUW-QJ-3ur">
                                 <rect key="frame" x="194" y="406" width="19" height="21"/>
@@ -57,6 +60,7 @@
                                     <color key="titleColor" red="0.97331575960000005" green="0.97169534209999997" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 </state>
                                 <connections>
+                                    <action selector="createAccountButtonTapped:" destination="BYZ-38-t0r" eventType="touchUpInside" id="432-Dn-92K"/>
                                     <segue destination="vTC-5r-sjK" kind="presentation" modalPresentationStyle="fullScreen" id="fiA-7G-oeN"/>
                                 </connections>
                             </button>
@@ -65,6 +69,10 @@
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                     </view>
                     <navigationItem key="navigationItem" id="Sfo-00-Ohg"/>
+                    <connections>
+                        <outlet property="passwordTextField" destination="zYg-7x-45o" id="WKG-hM-78j"/>
+                        <outlet property="userNameTextField" destination="Q1j-zR-0yy" id="Wd7-Zy-vcU"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
@@ -160,7 +168,8 @@
                                     <color key="titleColor" red="0.97331575960000005" green="0.97169534209999997" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 </state>
                                 <connections>
-                                    <segue destination="ed5-Qn-T0Z" kind="show" id="vCG-Gu-MBN"/>
+                                    <action selector="createAccountButtonTapped:" destination="vTC-5r-sjK" eventType="touchUpInside" id="qF6-Pq-Jx8"/>
+                                    <segue destination="ed5-Qn-T0Z" kind="presentation" modalPresentationStyle="fullScreen" id="vCG-Gu-MBN"/>
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="zud-aW-3Xv">
@@ -185,6 +194,14 @@
                         <viewLayoutGuide key="safeArea" id="xyO-Y8-ddX"/>
                     </view>
                     <navigationItem key="navigationItem" id="J6f-u2-T9e"/>
+                    <connections>
+                        <outlet property="accountTypeControl" destination="9vR-hN-ztk" id="EUI-pk-Rgk"/>
+                        <outlet property="addressTextField" destination="X5T-ao-Aux" id="D19-Pc-o8b"/>
+                        <outlet property="emailTextField" destination="SsE-Tk-yl5" id="f48-Ts-09O"/>
+                        <outlet property="passwordTextField" destination="wfM-yJ-NNB" id="wJa-An-epa"/>
+                        <outlet property="passwordTextField2" destination="gzr-Tf-Ai5" id="hR4-eN-UCH"/>
+                        <outlet property="usernameTextField" destination="fK3-1e-0gd" id="zV0-cl-cws"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="Ivx-xC-ikZ" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
